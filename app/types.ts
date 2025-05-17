@@ -2,6 +2,7 @@ export type Exercise = {
   name: string;
   instructions: string;
   isHold?: boolean;
+  videoUrl?: string;
 };
 
 export type WorkoutSection = {

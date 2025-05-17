@@ -58,10 +58,15 @@ const WorkoutPage: React.FC<WorkoutPageProps> = ({ workout }) => {
   }, [workout]);
   
   return (
-    <div className="px-4 sm:px-6 py-6">
-      <h1 className="text-2xl font-bold mb-4 text-center sm:text-left">
-        {workout.title} Workout
-      </h1>
+    <div className="px-3 py-3">
+      <div className="flex justify-between items-center mb-2">
+        <h1 className="text-xl font-bold">
+          {workout.title} Workout
+        </h1>
+        <div className="text-xs text-neutral-500 dark:text-neutral-400">
+          {completedExercises}/{totalExercises} exercises ({Math.round((completedExercises / totalExercises) * 100) || 0}%)
+        </div>
+      </div>
       
       <ProgressBar completed={completedExercises} total={totalExercises} />
       

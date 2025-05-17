@@ -106,12 +106,20 @@ export default function HistoryPage() {
       
       <div className="bg-neutral-100 dark:bg-neutral-900 px-4 py-3 flex justify-between items-center">
         <h1 className="text-xl font-bold">Workout History</h1>
-        <Link 
-          href="/"
-          className="px-3 py-1.5 text-sm bg-neutral-800 dark:bg-white text-white dark:text-neutral-900 rounded-full"
-        >
-          Go to Today
-        </Link>
+        <div className="flex gap-2">
+          <Link 
+            href="/reports"
+            className="px-3 py-1.5 text-sm bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200 rounded-full"
+          >
+            Reports
+          </Link>
+          <Link 
+            href="/"
+            className="px-3 py-1.5 text-sm bg-neutral-800 dark:bg-white text-white dark:text-neutral-900 rounded-full"
+          >
+            Go to Today
+          </Link>
+        </div>
       </div>
       
       <ExportImportData onDataImported={handleDataRefresh} />

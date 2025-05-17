@@ -43,8 +43,8 @@ export default function DayClientPage({ dayCode }: { dayCode: string }) {
       <DayTabs activeDay={dayCode} />
       <main className="flex-1">
         {isCurrentDay && (
-          <div className="bg-emerald-50 dark:bg-emerald-950/20 py-2 px-4 text-center text-sm text-emerald-800 dark:text-emerald-300 mb-4">
-            This is today's workout
+          <div className="bg-emerald-50 dark:bg-emerald-950/20 py-1 px-2 text-center text-xs text-emerald-800 dark:text-emerald-300">
+            Today's workout
           </div>
         )}
         <WorkoutPage workout={workout} />

@@ -19,10 +19,19 @@ const ExportImportData: React.FC<ExportImportDataProps> = ({ onDataImported }) =
         return;
       }
       
-      const dataStr = JSON.stringify(data, null, 2);
+      // Add metadata with timestamp for export
+      const exportData = {
+        data: data,
+        metadata: {
+          exportedAt: new Date().toISOString(),
+          version: "1.0"
+        }
+      };
+      
+      const dataStr = JSON.stringify(exportData, null, 2);
       const dataUri = `data:application/json;charset=utf-8,${encodeURIComponent(dataStr)}`;
       
-      const exportFileName = `workout-data-${new Date().toISOString().split('T')[0]}.json`;
+      const exportFileName = `workout-data-${new Date().toISOString().split('.')[0].replace(/:/g, '-')}.json`;
       
       const linkElement = document.createElement('a');
       linkElement.setAttribute('href', dataUri);
@@ -56,15 +65,23 @@ const ExportImportData: React.FC<ExportImportDataProps> = ({ onDataImported }) =
       try {
         const content = e.target?.result as string;
         const importedData = JSON.parse(content);
+        let workoutData;
+        
+        // Handle both old and new format
+        if (importedData.data && importedData.metadata) {
+          workoutData = importedData.data;
+        } else {
+          workoutData = importedData;
+        }
         
         // Validate imported data structure
-        if (typeof importedData !== 'object') {
+        if (typeof workoutData !== 'object') {
           throw new Error('Invalid data format');
         }
         
         // Merge with existing data (importedData will overwrite existing)
         const existingData = getWorkoutData();
-        const mergedData = { ...existingData, ...importedData };
+        const mergedData = { ...existingData, ...workoutData };
         
         // Save merged data
         saveWorkoutData(mergedData);
