@@ -207,6 +207,26 @@ export const workouts: Workout[] = [
             instructions: "Start on hands and knees with a flat back. Simultaneously extend one arm forward and the opposite leg backward until both are parallel to the floor. Hold for 2-3 seconds, then return to starting position and repeat with opposite limbs.",
             videoUrl: "https://www.youtube.com/watch?v=k2azbhhuKuM&pp=ygUIQmlyZCBEb2c%3D"
           },
+
+
+          {
+            name: "Crunches",
+            instructions: "Lie on your back with knees bent and feet flat on the floor. Place hands behind your head, supporting your neck. Engage your core and lift your shoulders off the ground, keeping your lower back pressed into the floor. Lower back down with control.",
+            videoUrl: "https://www.youtube.com/watch?v=MKmrqcoCZ-M&pp=ygUIY3J1bmNoZXPSBwkJjQkBhyohjO8%3D"
+          },
+          {
+            name: "Sit-ups",
+            instructions: "Lie on your back with knees bent and feet anchored (under a couch or with a partner holding them). Place hands behind your head, supporting your neck. Engage your core to lift your entire upper body up to a sitting position, then lower back down with control.",
+            videoUrl: "https://www.youtube.com/watch?v=jDwoBqPH0jk&pp=ygUGc2l0dXBz"
+          },
+          {
+            name: "Side Crunches",
+            instructions: "Lie on your back with knees bent and feet flat on the floor. Drop both knees to one side while keeping shoulders flat on the floor. Place hands behind your head. Lift your shoulders off the ground, focusing on the side crunch. Complete all reps on one side before switching.",
+            videoUrl: "https://www.youtube.com/watch?v=q0QyCrpiNgI&pp=ygUQT2JsaXF1ZSBDcnVuY2hlcw%3D%3D"
+          },
+
+
+
         ],
       },
       {
