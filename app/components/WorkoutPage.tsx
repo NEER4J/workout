@@ -60,7 +60,7 @@ const WorkoutPage: React.FC<WorkoutPageProps> = ({ workout }) => {
   return (
     <div className="px-3 py-3">
       <div className="flex justify-between items-center mb-2">
-        <h1 className="text-xl font-bold">
+        <h1 className="text-m font-bold">
           {workout.title} Workout
         </h1>
         <div className="text-xs text-neutral-500 dark:text-neutral-400">

@@ -3,6 +3,7 @@ export type Exercise = {
   instructions: string;
   isHold?: boolean;
   videoUrl?: string;
+  targetMuscles?: string[]; 
 };
 
 export type WorkoutSection = {

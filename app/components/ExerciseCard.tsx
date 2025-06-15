@@ -191,25 +191,27 @@ const ExerciseCard: React.FC<ExerciseCardProps> = ({ exercise }) => {
         className={`p-4 border border-neutral-200 dark:border-neutral-800 rounded-xl`}
       >
         <div className="flex items-start space-x-3">
-          <div 
-            className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold"
-            style={{ 
-              backgroundColor: getIconBackground(exercise.name),
-              color: isCompleted ? '#9CA3AF' : 'inherit'
-            }}
-          >
-            {getIconText(exercise.name)}
-          </div>
-          
           <div className="flex-1 min-w-0">
             <div className="flex items-start justify-between">
-              <div>
-                <h3 className={`font-medium text-lg truncate ${isCompleted ? 'line-through text-neutral-500 dark:text-neutral-400' : ''}`}>
-                  {exercise.name}
+              <div 
+                className="flex-1 cursor-pointer"
+                onClick={() => setIsExpanded(!isExpanded)}
+              >
+                <h3 className={`font-medium text-lg truncate text-wrap ${isCompleted ? 'line-through text-neutral-500 dark:text-neutral-400' : ''}`}>
+                  {exercise.name} <span className="text-xs text-neutral-500 dark:text-neutral-400">👇</span>
                 </h3>
-                <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-0.5 line-clamp-2">
-                  {exercise.instructions.split('.')[0]}.
-                </p>
+                {exercise.targetMuscles && exercise.targetMuscles.length > 0 && (
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    {exercise.targetMuscles.map((muscle, index) => (
+                      <span 
+                        key={index}
+                        className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-emerald-50 text-emerald-700 dark:bg-emerald-900/20 dark:text-emerald-400"
+                      >
+                        {muscle}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
               
               <div className="flex items-center ml-4">
@@ -217,26 +219,8 @@ const ExerciseCard: React.FC<ExerciseCardProps> = ({ exercise }) => {
                   type="checkbox" 
                   checked={isCompleted}
                   onChange={handleCheckboxChange}
-                  className="h-5 w-5 text-emerald-600 rounded border-neutral-300 dark:border-neutral-700 focus:ring-emerald-500"
+                  className="h-6 w-6 text-emerald-600 rounded border-neutral-300 dark:border-neutral-700 focus:ring-emerald-500 cursor-pointer"
                 />
-                <button
-                  onClick={() => setIsExpanded(!isExpanded)}
-                  className="ml-3 text-neutral-500 hover:text-neutral-900 dark:hover:text-white p-1 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800"
-                  aria-label={isExpanded ? "Collapse details" : "Expand details"}
-                >
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    className={`h-5 w-5 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
-                    viewBox="0 0 20 20" 
-                    fill="currentColor"
-                  >
-                    <path 
-                      fillRule="evenodd" 
-                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
-                      clipRule="evenodd" 
-                    />
-                  </svg>
-                </button>
               </div>
             </div>
             

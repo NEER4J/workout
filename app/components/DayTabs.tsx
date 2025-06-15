@@ -16,9 +16,10 @@ const DayTabs: React.FC<DayTabsProps> = ({ activeDay }) => {
     { id: "sun", label: "Sun" },
   ];
 
+
   return (
     <div className="flex overflow-x-auto py-3 px-2 no-scrollbar border-b border-neutral-200 dark:border-neutral-800">
-      <div className="flex space-x-1 mx-auto">
+      <div className="flex space-x-1">
         {tabs.map((tab) => {
           const isActive = activeDay === tab.id;
           const isCurrent = currentWorkoutDay === tab.id;
