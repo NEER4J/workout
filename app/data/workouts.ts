@@ -12,25 +12,25 @@ export const workouts: Workout[] = [
             name: "Wrist Circles & Stretches",
             instructions: "Perform slow, controlled circles with your wrists in both directions. Then, gently stretch your wrists in flexion and extension. Crucial for handling pressing movements and future calisthenics.",
             targetMuscles: ["Wrists", "Forearms"],
-            videoUrl: "https://www.youtube.com/watch?v=mSZWSQSSEjE"
+            videoUrl: "https://www.youtube.com/watch?v=wRSk1_C6yOM&pp=ygUZV3Jpc3QgQ2lyY2xlcyAmIFN0cmV0Y2hlcw%3D%3D"
           },
           {
             name: "Arm Circles (Forward & Backward)",
             instructions: "Extend arms to sides. Make small circles forward, then backward. Gradually increase circle size.",
             targetMuscles: ["Shoulders"],
-            videoUrl: "https://youtu.be/UVMEnIaY8aU?si=j2N5zhN9zdRBdmhl"
+            videoUrl: "https://www.youtube.com/watch?v=UVMEnIaY8aU&pp=ygULQXJtIENpcmNsZXM%3D"
           },
           {
             name: "Wall Slides",
             instructions: "Stand with your back against a wall. Place your forearms on the wall in a 'goalpost' position. Slide your arms up overhead, keeping your elbows and wrists in contact with the wall, then slide back down.",
             targetMuscles: ["Shoulders", "Upper Back"],
-            videoUrl: "https://www.youtube.com/watch?v=BTSoiI6-y8w"
+            videoUrl: "https://www.youtube.com/shorts/i_0zLUcE-zk"
           },
           {
-            name: "Incline Push-ups",
+            name: "Push-ups",
             instructions: "Place your hands on a sturdy elevated surface (like the edge of your bed). Perform push-ups with a full range of motion to prime the chest, especially the lower fibers.",
             targetMuscles: ["Chest", "Shoulders", "Triceps"],
-            videoUrl: "https://www.youtube.com/watch?v=3W0n_f2-6g4"
+            videoUrl: "https://www.youtube.com/watch?v=WDIpL0pjun0&pp=ygUIUHVzaC11cHM%3D"
           }
         ],
       },
@@ -125,26 +125,20 @@ export const workouts: Workout[] = [
             name: "Cat-Cow Stretch",
             instructions: "Get on all fours and alternate between arching your back (Cat) and rounding your spine (Cow) to warm up your spine.",
             targetMuscles: ["Spine", "Back"],
-            videoUrl: "https://www.youtube.com/watch?v=kqnua4rHVVA"
+            videoUrl: "https://www.youtube.com/watch?v=LIVJZZyZ2qM&pp=ygUPQ2F0LUNvdyBTdHJldGNo"
           },
           {
-            name: "Scapular Rows (using table)",
-            instructions: "Get into an inverted row position under a sturdy table. Keeping your arms straight, retract and protract your shoulder blades, pulling your chest up slightly. This activates the back muscles.",
-            targetMuscles: ["Upper Back", "Rhomboids"],
-            videoUrl: "https://www.youtube.com/watch?v=JK0_RU1gIsQ"
-          },
-          {
-            name: "Light Dumbbell Curls",
+            name: "Dumbbell Curls",
             instructions: "Perform bicep curls with a light weight to warm up the elbow joints and biceps.",
             targetMuscles: ["Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=ykJmrZ5vK6U"
+            videoUrl: "https://www.youtube.com/watch?v=6DeLZ6cbgWQ&pp=ygUORHVtYmJlbGwgQ3VybHM%3D"
           },
           {
             name: "Superman Holds",
             instructions: "Lie on your stomach with arms extended. Lift your arms, chest, and legs off the floor, squeezing your back muscles.",
             targetMuscles: ["Lower Back", "Glutes"],
             isHold: true,
-            videoUrl: "https://www.youtube.com/watch?v=z6PJMT2y8GQ"
+            videoUrl: "https://www.youtube.com/watch?v=ZNVWTVdJW5s&pp=ygUOU3VwZXJtYW4gSG9sZHM%3D"
           }
         ],
       },
@@ -155,49 +149,49 @@ export const workouts: Workout[] = [
             name: "Bent-over Barbell Row",
             instructions: "Hinge at the hips with a flat back. Pull the bar from below your knees to your lower chest/stomach area. This is your primary back thickness builder.",
             targetMuscles: ["Back", "Lats", "Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=T3N-TO4reLQ"
+            videoUrl: "https://www.youtube.com/watch?v=bm0_q9bR_HA&pp=ygUVQmVudC1vdmVyIEJhcmJlbGwgUm93"
           },
           {
             name: "Dumbbell Single-Arm Row",
             instructions: "Support one hand on a sturdy surface. Row a heavy dumbbell up towards your hip, keeping your back flat. Focus on driving your elbow back.",
             targetMuscles: ["Back", "Lats", "Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=pYcpY20QaE8"
+            videoUrl: "https://www.youtube.com/watch?v=DMo3HJoawrU&pp=ygUXRHVtYmJlbGwgU2luZ2xlLUFybSBSb3c%3D"
           },
           {
-            name: "Bodyweight Inverted Row (using a table)",
-            instructions: "Lie under a sturdy table. Grab the edge and pull your chest towards it, keeping your body straight. Make it harder by straightening your legs or elevating your feet.",
+            name: "Towel Row",
+            instructions: "use the door frame and attache a towel to the door frame and pull the towel towards you.",
             targetMuscles: ["Back", "Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=OY16n4I5U0w"
+            videoUrl: "https://www.youtube.com/watch?v=viwhgVBcilc&pp=ygUJVG93ZWwgUm93"
           },
           {
             name: "Dumbbell Pullover (Floor)",
             instructions: "Lie on the floor holding one dumbbell with both hands over your chest. Lower the dumbbell behind your head, feeling a stretch in your lats, then pull it back over your chest.",
             targetMuscles: ["Lats", "Chest", "Serratus Anterior"],
-            videoUrl: "https://www.youtube.com/watch?v=kpzUf1h3i-I"
+            videoUrl: "https://www.youtube.com/watch?v=ieFKuQAGYIA&pp=ygURRHVtYmJlbGwgUHVsbG92ZXI%3D"
           },
           {
             name: "Face Pulls (Lying, with Dumbbells)",
             instructions: "Lie on the floor holding light dumbbells. Start with arms extended up. Pull the dumbbells down and apart, bringing your hands towards the floor by your ears, as if doing a face pull. Excellent for rear delts and shoulder health.",
             targetMuscles: ["Rear Delts", "Upper Back"],
-            videoUrl: "https://www.youtube.com/watch?v=p36b_sa0iiI"
+            videoUrl: "https://www.youtube.com/watch?v=nzTY7j9ocR8&pp=ygUkICJGYWNlIFB1bGxzIChMeWluZywgd2l0aCBEdW1iYmVsbHMp"
           },
           {
             name: "Barbell Bicep Curls",
             instructions: "Stand and curl the bar up towards your shoulders, keeping your elbows relatively stable at your sides. Focus on squeezing the biceps.",
             targetMuscles: ["Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=kwG2ZMO-YQA"
+            videoUrl: "https://www.youtube.com/watch?v=QciWGMjD-nM&pp=ygUTQmFyYmVsbCBCaWNlcCBDdXJscw%3D%3D"
           },
           {
             name: "Dumbbell Hammer Curls",
             instructions: "Stand holding dumbbells with a neutral (palms facing in) grip. Curl the weight up, maintaining the neutral grip. This builds the brachialis muscle for thicker-looking arms.",
             targetMuscles: ["Biceps", "Brachialis"],
-            videoUrl: "https://www.youtube.com/watch?v=zC3nLHv2_h4"
+            videoUrl: "https://www.youtube.com/watch?v=CFBZ4jN1CMI&pp=ygUVRHVtYmJlbGwgSGFtbWVyIEN1cmxz"
           },
           {
             name: "Barbell Shrugs",
             instructions: "Hold a heavy barbell. Elevate your shoulders straight up towards your ears, pause at the top, then lower them under control.",
             targetMuscles: ["Traps"],
-            videoUrl: "https://www.youtube.com/watch?v=g6qbq4lH_vQ"
+            videoUrl: "https://www.youtube.com/watch?v=larn3Asl6oM&pp=ygUOQmFyYmVsbCBTaHJ1Z3M%3D"
           }
         ],
       },
@@ -208,19 +202,19 @@ export const workouts: Workout[] = [
             name: "Lying Leg Raises",
             instructions: "Lie on your back. Keep your legs straight and lift them towards the ceiling, then lower them slowly. Hold a dumbbell between your feet for added weight.",
             targetMuscles: ["Core", "Hip Flexors"],
-            videoUrl: "https://www.youtube.com/watch?v=PCDxgsX_LFs"
+            videoUrl: "https://www.youtube.com/watch?v=9qbV7ZQNqqA&pp=ygUQTHlpbmcgTGVnIFJhaXNlcw%3D%3D"
           },
           {
             name: "Side Plank Dips",
             instructions: "Get into a side plank on your forearm. Dip your hip towards the floor and then raise it back up. Complete all reps on one side before switching.",
             targetMuscles: ["Obliques", "Core"],
-            videoUrl: "https://www.youtube.com/watch?v=y20C25Gv2sc"
+            videoUrl: "https://www.youtube.com/watch?v=7BaVvUuxj6Q&pp=ygUPU2lkZSBQbGFuayBEaXBz"
           },
           {
             name: "Lying Windshield Wipers",
             instructions: "Lie on your back with your legs straight up in the air. Keeping your shoulders on the floor, slowly lower your legs to one side, then to the other, like windshield wipers. Bend knees to make it easier.",
             targetMuscles: ["Core", "Obliques"],
-            videoUrl: "https://www.youtube.com/watch?v=JIV_g4I5S_w"
+            videoUrl: "https://www.youtube.com/watch?v=NAA9pT_PplE&pp=ygUXTHlpbmcgV2luZHNoaWVsZCBXaXBlcnM%3D"
           }
         ],
       },
