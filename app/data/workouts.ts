@@ -1,330 +1,295 @@
+Sure, here is the optimized 30-minute daily dumbbell Push/Pull/Legs routine in the requested format.
+
+```typescript
 import { Workout } from "../types";
 
-export const workouts: Workout[] = [
-  {
-    title: "PUSH (Chest, Shoulders, Triceps)",
-    dayCode: "mon-thu",
-    sections: [
-      {
-        title: "Warm-up (5–8 mins)",
-        exercises: [
-          {
-            name: "Wrist Circles & Stretches",
-            instructions: "Perform slow, controlled circles with your wrists in both directions. Then, gently stretch your wrists in flexion and extension. Crucial for handling pressing movements and future calisthenics.",
-            targetMuscles: ["Wrists", "Forearms"],
-            videoUrl: "https://www.youtube.com/watch?v=wRSk1_C6yOM&pp=ygUZV3Jpc3QgQ2lyY2xlcyAmIFN0cmV0Y2hlcw%3D%3D"
+export const workouts: Workout =,
+            videoUrl: "https://www.youtube.com/watch?v=c4D_gQ_d2yQ"
           },
           {
             name: "Arm Circles (Forward & Backward)",
-            instructions: "Extend arms to sides. Make small circles forward, then backward. Gradually increase circle size.",
-            targetMuscles: ["Shoulders"],
-            videoUrl: "https://www.youtube.com/watch?v=UVMEnIaY8aU&pp=ygULQXJtIENpcmNsZXM%3D"
+            instructions: "Extend arms to sides. Make small circles forward, then backward. Gradually increase circle size to warm up shoulders.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=UVMEnIaY8aU"
           },
           {
-            name: "Wall Slides",
-            instructions: "Stand with your back against a wall. Place your forearms on the wall in a 'goalpost' position. Slide your arms up overhead, keeping your elbows and wrists in contact with the wall, then slide back down.",
-            targetMuscles: ["Shoulders", "Upper Back"],
-            videoUrl: "https://www.youtube.com/shorts/i_0zLUcE-zk"
+            name: "Wrist Circles & Stretches",
+            instructions: "Perform slow, controlled circles with your wrists in both directions, then gently stretch them. Important for handling pressing movements.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=wRSk1_C6yOM"
           },
           {
-            name: "Push-ups",
-            instructions: "Place your hands on a sturdy elevated surface (like the edge of your bed). Perform push-ups with a full range of motion to prime the chest, especially the lower fibers.",
-            targetMuscles: ["Chest", "Shoulders", "Triceps"],
-            videoUrl: "https://www.youtube.com/watch?v=WDIpL0pjun0&pp=ygUIUHVzaC11cHM%3D"
+            name: "Dynamic Chest Stretch (Arm Swings)",
+            instructions: "Swing arms across your body to open up the chest and shoulders.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=yIcjAEs18TQ"
           }
         ],
       },
       {
         title: "Main Workout",
-        exercises: [
-          {
-            name: "Dumbbell Bench Press (Floor)",
-            instructions: "Lie on the floor holding dumbbells. Press the weights up until your arms are fully extended, then lower them until your triceps touch the floor. Allows for a more natural hand position than a barbell.",
-            targetMuscles: ["Chest", "Shoulders", "Triceps"],
-            videoUrl: "https://www.youtube.com/watch?v=uUGDRwge4F8"
-          },
-          {
-            name: "Standing Dumbbell Overhead Press",
-            instructions: "Stand with feet shoulder-width apart, core tight. Press dumbbells from your shoulders directly overhead to full extension. This is a foundational full-body strength builder.",
-            targetMuscles: ["Shoulders", "Triceps", "Core"],
-            videoUrl: "https://www.youtube.com/watch?v=B-aVuyAUYpY"
-          },
-          {
-            name: "Pike Push-ups (Feet Elevated)",
-            instructions: "Get into a downward dog pose with your feet on an elevated surface (like a book or stool). Bend your elbows to lower the top of your head towards the floor. The higher your feet, the harder it is and the more it mimics a handstand push-up.",
-            targetMuscles: ["Shoulders", "Triceps"],
-            videoUrl: "https://www.youtube.com/watch?v=0_1N1d_e4aE"
-          },
-          {
-            name: "Dumbbell Floor Flyes",
-            instructions: "Lie on the floor with a dumbbell in each hand. With a slight bend in your elbows, lower the dumbbells out to your sides in an arc, then bring them back to the start.",
-            targetMuscles: ["Chest"],
-            videoUrl: "https://www.youtube.com/watch?v=JMoQWdn5Efg"
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=0G2_XV7g-mQ"
           },
           {
             name: "Dumbbell Lateral Raises",
-            instructions: "Stand with a slight bend in your elbows. Raise dumbbells out to your sides until they reach shoulder height, controlling the movement. Focus on leading with your elbows.",
-            targetMuscles: ["Shoulders"],
+            instructions: "Perform 3-4 sets of 10-15 reps. Stand with a slight bend in your elbows. Raise dumbbells out to your sides until they reach shoulder height, controlling the movement. Focus on leading with your elbows. Perform as a superset with Incline Dumbbell Press.",
+            targetMuscles:,
             videoUrl: "https://www.youtube.com/watch?v=XPPfnSEATJA"
           },
           {
-            name: "Dumbbell Skull Crushers (Floor)",
-            instructions: "Lie on the floor holding dumbbells over your chest. Hinge at the elbows to lower the weights towards the sides of your head, then extend to lift them back up.",
-            targetMuscles: ["Triceps"],
+            name: "Flat Dumbbell Press (or Floor Press)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Lie on the floor holding dumbbells. Press the weights up until your arms are fully extended, then lower them until your triceps touch the floor. Rest 60 seconds after completing the superset.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=uUGDRwge4F8"
+          },
+          {
+            name: "Dumbbell Overhead Press (Seated or Standing)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Press dumbbells from your shoulders directly overhead to full extension. Builds overall shoulder mass, hitting anterior and medial deltoids. Perform as a superset with Flat Dumbbell Press.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=B-aVuyAUYpY"
+          },
+          {
+            name: "Dumbbell Triceps Extensions (Skullcrushers or Overhead)",
+            instructions: "Perform 3 sets of 10-15 reps. Isolate the triceps. For skullcrushers, lie on the floor and lower weights towards your head. For overhead, stand or sit and extend a single dumbbell overhead. Rest 30-45 seconds between sets.",
+            targetMuscles:,
             videoUrl: "https://www.youtube.com/watch?v=1BDGIcMTSXc"
-          },
-          {
-            name: "Diamond Push-ups",
-            instructions: "Place your hands close together on the floor, forming a diamond shape. Lower your chest to your hands, keeping your elbows tucked in. Elevate your feet to increase the difficulty.",
-            targetMuscles: ["Triceps", "Chest"],
-            videoUrl: "https://www.youtube.com/shorts/9Df9OEdCGmU"
-          },
-          {
-            name: "Dips (using two chairs or bed edge)",
-            instructions: "Use two sturdy chairs or the edge of your bed. Lower your body by bending your elbows until you feel a stretch in your chest/shoulders, then press back up. Keep your torso upright to target triceps more.",
-            targetMuscles: ["Triceps", "Chest", "Shoulders"],
-            videoUrl: "https://www.youtube.com/watch?v=0326dy_-CzM"
           }
         ],
       },
       {
         title: "Core Finisher",
-        exercises: [
-          {
-            name: "Hollow Body Hold",
-            instructions: "Lie on your back. Press your lower back into the floor. Lift your head, shoulders, and legs off the ground. Find a position you can hold with perfect form. This is the #1 core exercise for calisthenics.",
-            targetMuscles: ["Core", "Abs"],
-            isHold: true,
-            videoUrl: "https://www.youtube.com/watch?v=vMhS6M_fcxg"
-          },
-          {
-            name: "Weighted Russian Twists",
-            instructions: "Sit on the floor, lean back, and lift your feet (optional). Twist your torso side to side while holding a weight plate.",
-            targetMuscles: ["Core", "Obliques"],
-            videoUrl: "https://www.youtube.com/watch?v=Tau0hsW8iR0"
-          },
-          {
-            name: "Plank",
-            instructions: "Hold a rigid plank position on your forearms. Squeeze your glutes and abs. For a challenge, have a partner place a weight plate on your back.",
-            targetMuscles: ["Core"],
+        exercises:,
             isHold: true,
             videoUrl: "https://www.youtube.com/watch?v=6LqqeBtFn9M"
+          },
+          {
+            name: "Leg Raises",
+            instructions: "Perform 3 sets of 10-15 reps. Lie on your back. Keep your legs straight and lift them towards the ceiling, then lower them slowly. Targets the lower abdominals.",
+            targetMuscles: ["Core", "Lower Abs"],
+            videoUrl: "https://www.youtube.com/watch?v=9qbV7ZQNqqA"
           }
         ],
       },
     ],
   },
   {
-    title: "PULL (Back, Biceps, Rear Delts)",
-    dayCode: "tue-fri",
-    sections: [
-      {
-        title: "Warm-up (5–8 mins)",
-        exercises: [
+    title: "PULL A (Back Width, Biceps, Rear Delts)",
+    dayCode: "tue",
+    sections:,
+            videoUrl: "https://www.youtube.com/watch?v=c4D_gQ_d2yQ"
+          },
           {
             name: "Cat-Cow Stretch",
-            instructions: "Get on all fours and alternate between arching your back (Cat) and rounding your spine (Cow) to warm up your spine.",
-            targetMuscles: ["Spine", "Back"],
-            videoUrl: "https://www.youtube.com/watch?v=LIVJZZyZ2qM&pp=ygUPQ2F0LUNvdyBTdHJldGNo"
+            instructions: "Get on all fours and alternate between arching your back (Cat) and rounding your spine (Cow) to warm up your spine and back.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=LIVJZZyZ2qM"
           },
           {
-            name: "Dumbbell Curls",
-            instructions: "Perform bicep curls with a light weight to warm up the elbow joints and biceps.",
-            targetMuscles: ["Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=6DeLZ6cbgWQ&pp=ygUORHVtYmJlbGwgQ3VybHM%3D"
+            name: "Dynamic Back Stretch (Torso Twists)",
+            instructions: "Stand with feet shoulder-width apart, arms bent. Twist your torso side to side, allowing your arms to swing naturally.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=yIcjAEs18TQ"
           },
           {
-            name: "Superman Holds",
-            instructions: "Lie on your stomach with arms extended. Lift your arms, chest, and legs off the floor, squeezing your back muscles.",
-            targetMuscles: ["Lower Back", "Glutes"],
-            isHold: true,
-            videoUrl: "https://www.youtube.com/watch?v=ZNVWTVdJW5s&pp=ygUOU3VwZXJtYW4gSG9sZHM%3D"
+            name: "Light Dumbbell Curls",
+            instructions: "Perform 1-2 sets of 10-15 reps with very light dumbbells to warm up the elbow joints and biceps.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=6DeLZ6cbgWQ"
           }
         ],
       },
       {
         title: "Main Workout",
-        exercises: [
-          {
-            name: "Bent-over Barbell Row",
-            instructions: "Hinge at the hips with a flat back. Pull the bar from below your knees to your lower chest/stomach area. This is your primary back thickness builder.",
-            targetMuscles: ["Back", "Lats", "Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=bm0_q9bR_HA&pp=ygUVQmVudC1vdmVyIEJhcmJlbGwgUm93"
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=ieFKuQAGYIA"
           },
           {
-            name: "Dumbbell Single-Arm Row",
-            instructions: "Support one hand on a sturdy surface. Row a heavy dumbbell up towards your hip, keeping your back flat. Focus on driving your elbow back.",
-            targetMuscles: ["Back", "Lats", "Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=DMo3HJoawrU&pp=ygUXRHVtYmJlbGwgU2luZ2xlLUFybSBSb3c%3D"
+            name: "One-Arm Dumbbell Rows",
+            instructions: "Perform 3-4 sets of 8-12 reps per arm. Support one hand on a sturdy surface. Row a dumbbell up towards your hip, keeping your back flat. Focus on pulling with the elbow to engage the lats and upper back. Perform as a superset with Dumbbell Pullovers.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=DMo3HJoawrU"
           },
           {
-            name: "Towel Row",
-            instructions: "use the door frame and attache a towel to the door frame and pull the towel towards you.",
-            targetMuscles: ["Back", "Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=viwhgVBcilc&pp=ygUJVG93ZWwgUm93"
+            name: "Bent-Over Dumbbell Rows (both arms)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Hinge at the hips with a flat back, holding dumbbells. Pull the dumbbells towards your lower chest/stomach. Contributes to overall back thickness and width. Rest 60 seconds after completing the superset.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=pYj82L5171o"
           },
           {
-            name: "Dumbbell Pullover (Floor)",
-            instructions: "Lie on the floor holding one dumbbell with both hands over your chest. Lower the dumbbell behind your head, feeling a stretch in your lats, then pull it back over your chest.",
-            targetMuscles: ["Lats", "Chest", "Serratus Anterior"],
-            videoUrl: "https://www.youtube.com/watch?v=ieFKuQAGYIA&pp=ygURRHVtYmJlbGwgUHVsbG92ZXI%3D"
+            name: "Dumbbell Rear Delt Flyes",
+            instructions: "Perform 3-4 sets of 12-15 reps. Bend at the hips with a slight bend in your knees. Raise light dumbbells out to the sides, squeezing your shoulder blades. Targets rear deltoids for balanced shoulder development. Perform as a superset with Bent-Over Dumbbell Rows.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=EA2t1_j024U"
           },
           {
-            name: "Face Pulls (Lying, with Dumbbells)",
-            instructions: "Lie on the floor holding light dumbbells. Start with arms extended up. Pull the dumbbells down and apart, bringing your hands towards the floor by your ears, as if doing a face pull. Excellent for rear delts and shoulder health.",
-            targetMuscles: ["Rear Delts", "Upper Back"],
-            videoUrl: "https://www.youtube.com/watch?v=nzTY7j9ocR8&pp=ygUkICJGYWNlIFB1bGxzIChMeWluZywgd2l0aCBEdW1iYmVsbHMp"
+            name: "Dumbbell Bicep Curls (Alternating or Hammer)",
+            instructions: "Perform 3 sets of 10-15 reps. Stand or sit, curling dumbbells up towards your shoulders. Alternating or hammer grip (palms facing each other) can be used. Rest 30-45 seconds between sets.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=6DeLZ6cbgWQ"
           },
           {
-            name: "Barbell Bicep Curls",
-            instructions: "Stand and curl the bar up towards your shoulders, keeping your elbows relatively stable at your sides. Focus on squeezing the biceps.",
-            targetMuscles: ["Biceps"],
-            videoUrl: "https://www.youtube.com/watch?v=QciWGMjD-nM&pp=ygUTQmFyYmVsbCBCaWNlcCBDdXJscw%3D%3D"
-          },
-          {
-            name: "Dumbbell Hammer Curls",
-            instructions: "Stand holding dumbbells with a neutral (palms facing in) grip. Curl the weight up, maintaining the neutral grip. This builds the brachialis muscle for thicker-looking arms.",
-            targetMuscles: ["Biceps", "Brachialis"],
-            videoUrl: "https://www.youtube.com/watch?v=CFBZ4jN1CMI&pp=ygUVRHVtYmJlbGwgSGFtbWVyIEN1cmxz"
-          },
-          {
-            name: "Barbell Shrugs",
-            instructions: "Hold a heavy barbell. Elevate your shoulders straight up towards your ears, pause at the top, then lower them under control.",
-            targetMuscles: ["Traps"],
-            videoUrl: "https://www.youtube.com/watch?v=larn3Asl6oM&pp=ygUOQmFyYmVsbCBTaHJ1Z3M%3D"
+            name: "Optional: Pull-ups/Chin-ups",
+            instructions: "If a pull-up bar is available, perform 3 sets of 5-10 reps. Can replace Dumbbell Pullovers for lat development.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=eGo4dq1w_7s"
           }
         ],
       },
       {
         title: "Core Finisher",
-        exercises: [
-          {
-            name: "Lying Leg Raises",
-            instructions: "Lie on your back. Keep your legs straight and lift them towards the ceiling, then lower them slowly. Hold a dumbbell between your feet for added weight.",
-            targetMuscles: ["Core", "Hip Flexors"],
-            videoUrl: "https://www.youtube.com/watch?v=9qbV7ZQNqqA&pp=ygUQTHlpbmcgTGVnIFJhaXNlcw%3D%3D"
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=9qbV7ZQNqqA"
           },
           {
-            name: "Side Plank Dips",
-            instructions: "Get into a side plank on your forearm. Dip your hip towards the floor and then raise it back up. Complete all reps on one side before switching.",
-            targetMuscles: ["Obliques", "Core"],
-            videoUrl: "https://www.youtube.com/watch?v=7BaVvUuxj6Q&pp=ygUPU2lkZSBQbGFuayBEaXBz"
-          },
-          {
-            name: "Lying Windshield Wipers",
-            instructions: "Lie on your back with your legs straight up in the air. Keeping your shoulders on the floor, slowly lower your legs to one side, then to the other, like windshield wipers. Bend knees to make it easier.",
+            name: "Weighted Russian Twists",
+            instructions: "Perform 3 sets of 10-15 reps per side. Sit on the floor, lean back, and lift your feet (optional). Twist your torso side to side while holding a dumbbell.",
             targetMuscles: ["Core", "Obliques"],
-            videoUrl: "https://www.youtube.com/watch?v=NAA9pT_PplE&pp=ygUXTHlpbmcgV2luZHNoaWVsZCBXaXBlcnM%3D"
+            videoUrl: "https://www.youtube.com/watch?v=Tau0hsW8iR0"
           }
         ],
       },
     ],
   },
   {
-    title: "LEGS (Quads, Hamstrings, Glutes, Calves)",
-    dayCode: "wed-sat",
-    sections: [
-      {
-        title: "Warm-up (6–10 mins)",
-        exercises: [
+    title: "LEGS A (Quads, Hamstrings, Glutes, Calves)",
+    dayCode: "wed",
+    sections:,
+            videoUrl: "https://www.youtube.com/watch?v=c4D_gQ_d2yQ"
+          },
           {
             name: "Bodyweight Squats",
-            instructions: "Focus on achieving good depth, pausing at the bottom for 1-2 seconds.",
-            targetMuscles: ["Quads", "Glutes"],
+            instructions: "Perform 1-2 sets of 10-15 reps. Focus on achieving good depth and warming up the hips and knees.",
+            targetMuscles: ["Quads", "Glutes", "Hamstrings"],
             videoUrl: "https://www.youtube.com/watch?v=8uoaYwS6iFM"
           },
           {
-            name: "Glute Bridges",
-            instructions: "Lie on your back with knees bent. Lift your hips towards the ceiling, squeezing your glutes hard for 2 seconds at the top.",
+            name: "Glute Bridges (Bodyweight)",
+            instructions: "Perform 1-2 sets of 10-15 reps. Lie on your back with knees bent. Lift your hips towards the ceiling, squeezing your glutes.",
             targetMuscles: ["Glutes", "Hamstrings"],
             videoUrl: "https://www.youtube.com/watch?v=Xp33YgPZgns"
           },
           {
-            name: "Cossack Squats (Bodyweight)",
-            instructions: "Take a wide stance. Shift your weight to one side, squatting down as low as you can while keeping the other leg straight. Great for hip mobility and adductor strength.",
-            targetMuscles: ["Glutes", "Adductors", "Quads"],
-            videoUrl: "https://www.youtube.com/watch?v=tp-s-wAP_fg"
-          },
-          {
-            name: "Forward Leg Swings",
-            instructions: "Hold onto a wall for balance. Swing one leg forward and backward, gradually increasing the range of motion to dynamically stretch the hamstrings and hip flexors.",
-            targetMuscles: ["Hamstrings", "Hip Flexors"],
+            name: "Leg Swings (Forward & Sideways)",
+            instructions: "Hold onto a wall for balance. Swing one leg forward and backward, then side to side, to dynamically stretch hips and hamstrings.",
+            targetMuscles: ["Hamstrings", "Hip Flexors", "Adductors"],
             videoUrl: "https://www.youtube.com/watch?v=TziEa2s-2iI"
           }
         ],
       },
       {
         title: "Main Workout",
-        exercises: [
-          {
-            name: "Barbell Back Squats",
-            instructions: "Place the barbell on your upper back. Squat down, focusing on depth while keeping your chest up and back straight. This is your primary strength and mass builder for legs.",
-            targetMuscles: ["Quads", "Glutes", "Hamstrings"],
-            videoUrl: "https://www.youtube.com/watch?v=ultWZbUmD4E"
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=MeWf2_y144Q"
           },
           {
-            name: "Barbell Romanian Deadlifts (RDLs)",
-            instructions: "Keep a slight bend in your knees. Hinge at your hips, keeping your back flat, and lower the weight along your legs until you feel a deep stretch in your hamstrings. The king of hamstring development.",
-            targetMuscles: ["Hamstrings", "Glutes", "Lower Back"],
+            name: "Dumbbell Romanian Deadlifts (RDLs)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Hold dumbbells in front of your thighs. Keep a slight bend in your knees and hinge at your hips, lowering the weights along your legs until you feel a deep stretch in your hamstrings. Excellent for hamstrings and glutes. Perform as a superset with Dumbbell Goblet Squats.",
+            targetMuscles:,
             videoUrl: "https://www.youtube.com/watch?v=JCXUYuzwNrM"
           },
           {
-            name: "Bulgarian Split Squats (use bed)",
-            instructions: "Elevate your rear foot on your bed. Lunge down on your front leg, keeping your front knee over your ankle. Hold dumbbells for resistance. Brutally effective for unilateral strength.",
-            targetMuscles: ["Quads", "Glutes"],
-            videoUrl: "https://www.youtube.com/watch?v=2C-uNgKwPLE"
+            name: "Dumbbell Lunges",
+            instructions: "Perform 3-4 sets of 10-15 reps per leg. Hold dumbbells at your sides. Step forward into a lunge, lowering your back knee towards the floor. Improves unilateral strength and balance. Rest 60 seconds after completing the superset.",
+            targetMuscles: ["Quads", "Glutes", "Hamstrings"],
+            videoUrl: "https://www.youtube.com/watch?v=QO8_QJ_J44U"
           },
           {
-            name: "Barbell Hip Thrusts (use bed)",
-            instructions: "Rest your upper back on the edge of your bed. Drive your hips up with the barbell across your lap, squeezing your glutes hard at the top. Unmatched for glute development.",
-            targetMuscles: ["Glutes", "Hamstrings"],
-            videoUrl: "https://www.youtube.com/watch?v=SEdqd1n0cvg"
-          },
-          {
-            name: "Dumbbell Front Squats",
-            instructions: "Hold two dumbbells up on your shoulders (rack position). Squat down, keeping your torso as upright as possible. This emphasizes the quads and challenges your upper back.",
-            targetMuscles: ["Quads", "Glutes", "Upper Back"],
-            videoUrl: "https://www.youtube.com/watch?v=MW6s0B4s_4U"
-          },
-          {
-            name: "Slider Hamstring Curls (use towel)",
-            instructions: "Lie on your back with heels on a towel on a smooth floor. Lift your hips into a bridge, then slide your heels out. Pull your heels back in using your hamstrings. To make it harder, do one leg at a time.",
-            targetMuscles: ["Hamstrings", "Glutes"],
-            videoUrl: "https://www.youtube.com/watch?v=7_p_32y3aV8"
-          },
-          {
-            name: "Pistol Squat Negatives / Box Squats",
-            instructions: "Builds single-leg strength for pistol squats. Stand on one leg. Slowly lower yourself down to sit on your bed or a chair with full control. Stand up with two legs and repeat.",
-            targetMuscles: ["Quads", "Glutes", "Balance"],
-            videoUrl: "https://www.youtube.com/watch?v=KzJ Ngo-c4I"
-          },
-          {
-            name: "Dumbbell Calf Raises",
-            instructions: "Stand while holding heavy dumbbells. Elevate your toes on a weight plate or book. Rise up onto the balls of your feet, pause for 2 seconds at the top, and slowly lower for a deep stretch.",
+            name: "Standing Dumbbell Calf Raises",
+            instructions: "Perform 3-4 sets of 15-20 reps. Stand while holding dumbbells. Elevate your toes on a book or weight plate. Rise up onto the balls of your feet, pause, and slowly lower for a deep stretch. Targets calf muscles. Perform as a superset with Dumbbell Lunges.",
             targetMuscles: ["Calves"],
             videoUrl: "https://www.youtube.com/watch?v=nnPGrBLNlaw"
           },
+          {
+            name: "Optional: Glute Bridges with Dumbbell on hips",
+            instructions: "Perform 3 sets of 12-15 reps. Lie on your back with knees bent, feet flat. Place a dumbbell across your hips. Drive your hips up, squeezing your glutes at the top. Rest 30-45 seconds.",
+            targetMuscles: ["Glutes"],
+            videoUrl: "https://www.youtube.com/watch?v=SEdqd1n0cvg"
+          }
         ],
       },
       {
         title: "Core Finisher",
-        exercises: [
-          {
-            name: "Bird Dog",
-            instructions: "Start on all fours. Extend your opposite arm and leg, keeping your core tight and back flat. Pause at full extension, focusing on stability.",
-            targetMuscles: ["Core", "Glutes", "Lower Back"],
+        exercises:,
             videoUrl: "https://www.youtube.com/watch?v=k2azbhhuKuM"
           },
           {
             name: "Side Plank",
-            instructions: "Support your body on one forearm, keeping your body in a straight line. Hold a dumbbell or weight plate on your hip for a challenge.",
+            instructions: "Perform 3 sets, holding for 30-60 seconds per side. Support your body on one forearm, keeping your body in a straight line.",
             targetMuscles: ["Obliques", "Core"],
             isHold: true,
             videoUrl: "https://www.youtube.com/watch?v=cngmwRRKKdk"
+          }
+        ],
+      },
+    ],
+  },
+  {
+    title: "PUSH B (Variation/Hypertrophy Focus)",
+    dayCode: "thu",
+    sections:,
+            videoUrl: "https://www.youtube.com/watch?v=c4D_gQ_d2yQ"
+          },
+          {
+            name: "Arm Circles (Forward & Backward)",
+            instructions: "Extend arms to sides. Make small circles forward, then backward. Gradually increase circle size to warm up shoulders.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=UVMEnIaY8aU"
+          },
+          {
+            name: "Wall Slides",
+            instructions: "Stand with your back against a wall. Place your forearms on the wall in a 'goalpost' position. Slide your arms up overhead, keeping contact with the wall.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/shorts/i_0zLUcE-zk"
+          },
+          {
+            name: "Light Push-ups (Elevated Hands)",
+            instructions: "Perform 1-2 sets of 10-15 reps with hands elevated on a sturdy surface to prime the chest, shoulders, and triceps.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=WDIpL0pjun0"
+          }
+        ],
+      },
+      {
+        title: "Main Workout",
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=JMoQWdn5Efg"
+          },
+          {
+            name: "Dumbbell Upright Rows (wide grip)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Hold dumbbells in front of you with a wide grip. Pull them straight up towards your front deltoids, leading with your elbows. Emphasizes lateral deltoids for width. Perform as a superset with Incline Dumbbell Flyes.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=pYj82L5171o"
+          },
+          {
+            name: "Arnold Press",
+            instructions: "Perform 3-4 sets of 8-12 reps. Sit or stand, holding dumbbells at shoulder height with palms facing you. As you press up, rotate your palms to face forward. Targets all three heads of the deltoid. Rest 60 seconds after completing the superset.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=t2y2Wz2_14M"
+          },
+          {
+            name: "Dumbbell Floor Press (Neutral Grip)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Lie on the floor, holding dumbbells with palms facing each other. Press up. Good alternative chest press with triceps emphasis. Perform as a superset with Arnold Press.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=uUGDRwge4F8"
+          },
+          {
+            name: "Bench Dips (with dumbbells on lap if needed)",
+            instructions: "Perform 3 sets of 10-15 reps. Use a sturdy bench or chair. Lower your body by bending your elbows, keeping your torso upright to target triceps. Add dumbbells on your lap for resistance if needed. Rest 30-45 seconds between sets.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=0326dy_-CzM"
+          }
+        ],
+      },
+      {
+        title: "Core Finisher",
+        exercises:,
+            isHold: true,
+            videoUrl: "https://www.youtube.com/watch?v=vMhS6M_fcxg"
           },
           {
             name: "Weighted Crunches",
-            instructions: "Lie on your back with knees bent. Hold a weight plate on your chest. Curl your upper body off the floor, focusing on contracting your abs. Lower under control.",
+            instructions: "Perform 3 sets of 10-15 reps. Lie on your back with knees bent. Hold a dumbbell or weight plate on your chest. Curl your upper body off the floor, focusing on contracting your abs. Lower under control.",
             targetMuscles: ["Abs"],
             videoUrl: "https://www.youtube.com/watch?v=h_4324fE99A"
           }
@@ -333,17 +298,160 @@ export const workouts: Workout[] = [
     ],
   },
   {
+    title: "PULL B (Back Thickness, Biceps, Forearms)",
+    dayCode: "fri",
+    sections:,
+            videoUrl: "https://www.youtube.com/watch?v=c4D_gQ_d2yQ"
+          },
+          {
+            name: "Cat-Cow Stretch",
+            instructions: "Get on all fours and alternate between arching your back (Cat) and rounding your spine (Cow) to warm up your spine and back.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=LIVJZZyZ2qM"
+          },
+          {
+            name: "Superman Holds",
+            instructions: "Perform 1-2 sets, holding for 20-30 seconds. Lie on your stomach with arms extended. Lift your arms, chest, and legs off the floor, squeezing your back muscles.",
+            targetMuscles:,
+            isHold: true,
+            videoUrl: "https://www.youtube.com/watch?v=ZNVWTVdJW5s"
+          },
+          {
+            name: "Light Dumbbell Rows",
+            instructions: "Perform 1-2 sets of 10-15 reps with very light dumbbells to warm up the back muscles.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=DMo3HJoawrU"
+          }
+        ],
+      },
+      {
+        title: "Main Workout",
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=DMo3HJoawrU"
+          },
+          {
+            name: "Wide Grip Dumbbell Rows (Bent-Over)",
+            instructions: "Perform 3-4 sets of 8-12 reps. Hinge at the hips, holding dumbbells with a wide grip. Pull towards your upper chest, emphasizing the outer back and lats. Perform as a superset with Dumbbell Rows.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=pYj82L5171o"
+          },
+          {
+            name: "Seated Dumbbell Curls",
+            instructions: "Perform 3-4 sets of 10-15 reps. Sit on a bench or chair, curling dumbbells up. Isolates biceps. Rest 60 seconds after completing the superset.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=0y0324b5QeU"
+          },
+          {
+            name: "Dumbbell Hammer Curls",
+            instructions: "Perform 3-4 sets of 10-15 reps. Stand or sit, holding dumbbells with a neutral (palms facing in) grip. Curl the weight up. Targets brachialis and brachioradialis for arm thickness. Perform as a superset with Seated Dumbbell Curls.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=CFBZ4jN1CMI"
+          },
+          {
+            name: "Dumbbell Shrugs",
+            instructions: "Perform 3 sets of 10-15 reps. Stand holding heavy dumbbells. Elevate your shoulders straight up towards your ears, pause at the top, then lower under control. Targets traps for upper back development. Rest 30-45 seconds between sets.",
+            targetMuscles:,
+            videoUrl: "https://www.youtube.com/watch?v=larn3Asl6oM"
+          }
+        ],
+      },
+      {
+        title: "Core Finisher",
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=7BaVvUuxj6Q"
+          },
+          {
+            name: "Lying Windshield Wipers",
+            instructions: "Perform 3 sets of 10-15 reps per side. Lie on your back with your legs straight up in the air. Keeping your shoulders on the floor, slowly lower your legs to one side, then to the other. Bend knees to make it easier.",
+            targetMuscles: ["Core", "Obliques"],
+            videoUrl: "https://www.youtube.com/watch?v=NAA9pT_PplE"
+          }
+        ],
+      },
+    ],
+  },
+  {
+    title: "LEGS B (Hamstring/Glute Focus & Calves)",
+    dayCode: "sat",
+    sections:,
+            videoUrl: "https://www.youtube.com/watch?v=c4D_gQ_d2yQ"
+          },
+          {
+            name: "Bodyweight Squats",
+            instructions: "Perform 1-2 sets of 10-15 reps. Focus on achieving good depth and warming up the hips and knees.",
+            targetMuscles: ["Quads", "Glutes", "Hamstrings"],
+            videoUrl: "https://www.youtube.com/watch?v=8uoaYwS6iFM"
+          },
+          {
+            name: "Cossack Squats (Bodyweight)",
+            instructions: "Perform 1-2 sets of 5-8 reps per side. Take a wide stance. Shift your weight to one side, squatting down as low as you can while keeping the other leg straight. Great for hip mobility and adductor strength.",
+            targetMuscles: ["Glutes", "Adductors", "Quads"],
+            videoUrl: "https://www.youtube.com/watch?v=tp-s-wAP_fg"
+          },
+          {
+            name: "Glute Bridges (Bodyweight)",
+            instructions: "Perform 1-2 sets of 10-15 reps. Lie on your back with knees bent. Lift your hips towards the ceiling, squeezing your glutes.",
+            targetMuscles: ["Glutes", "Hamstrings"],
+            videoUrl: "https://www.youtube.com/watch?v=Xp33YgPZgns"
+          }
+        ],
+      },
+      {
+        title: "Main Workout",
+        exercises:,
+            videoUrl: "https://www.youtube.com/watch?v=r_0b24036_Q"
+          },
+          {
+            name: "Dumbbell Glute Bridges/Hip Thrusts",
+            instructions: "Perform 3-4 sets of 12-15 reps. Lie on your back with knees bent, feet flat. Place a dumbbell across your hips. Drive your hips up, squeezing your glutes hard at the top. Strong glute activator. Perform as a superset with Single-Leg Dumbbell Romanian Deadlifts.",
+            targetMuscles: ["Glutes", "Hamstrings"],
+            videoUrl: "https://www.youtube.com/watch?v=SEdqd1n0cvg"
+          },
+          {
+            name: "Dumbbell Step-Ups (onto a sturdy chair/bench)",
+            instructions: "Perform 3-4 sets of 10-15 reps per leg. Hold dumbbells at your sides. Step onto a sturdy elevated surface, driving through the heel of your stepping leg. Works quads and glutes, unilateral focus. Rest 60 seconds after completing the superset.",
+            targetMuscles: ["Quads", "Glutes", "Hamstrings"],
+            videoUrl: "https://www.youtube.com/watch?v=0326dy_-CzM"
+          },
+          {
+            name: "Seated Dumbbell Calf Raises",
+            instructions: "Perform 3-4 sets of 15-20 reps. Sit on a chair with dumbbells on your knees. Elevate your toes on a book or plate. Raise your heels, squeezing your calves. Targets calves from a different angle. Perform as a superset with Dumbbell Step-Ups.",
+            targetMuscles: ["Calves"],
+            videoUrl: "https://www.youtube.com/watch?v=J0D_F2_12Q8"
+          },
+          {
+            name: "Optional: Dumbbell Hack Squat (heels elevated)",
+            instructions: "Perform 3 sets of 12-15 reps. Stand with heels elevated on plates, holding dumbbells at your sides. Squat down, keeping your torso upright. Emphasizes quads. Rest 30-45 seconds.",
+            targetMuscles: ["Quads", "Glutes"],
+            videoUrl: "https://www.youtube.com/watch?v=0G2_XV7g-mQ"
+          }
+        ],
+      },
+      {
+        title: "Core Finisher",
+        exercises:,
+            isHold: true,
+            videoUrl: "https://www.youtube.com/watch?v=6LqqeBtFn9M"
+          },
+          {
+            name: "Lying Windshield Wipers",
+            instructions: "Perform 3 sets of 10-15 reps per side. Lie on your back with your legs straight up in the air. Keeping your shoulders on the floor, slowly lower your legs to one side, then to the other. Bend knees to make it easier.",
+            targetMuscles: ["Core", "Obliques"],
+            videoUrl: "https://www.youtube.com/watch?v=NAA9pT_PplE"
+          }
+        ],
+      },
+    ],
+  },
+  {
     title: "Active Recovery / Rest",
     dayCode: "sun",
-    sections: [
-      {
-        title: "Light Activity (Choose 1-2)",
-        exercises: [
-          { name: "Light Walk", instructions: "Maintain an easy pace and focus on your breathing.", targetMuscles: ["Full Body"], isHold: true, videoUrl: "https://www.youtube.com/watch?v=AdSQaIh94ME" },
-          { name: "Gentle Stretching / Mobility", instructions: "Perform a full-body stretch, focusing on tight areas from your workouts. Hold each stretch.", targetMuscles: ["Full Body"], isHold: true, videoUrl: "https://www.youtube.com/watch?v=yIcjAEs18TQ" },
-          { name: "Foam Rolling", instructions: "Target sore muscles like quads, hamstrings, glutes, and back.", targetMuscles: ["Full Body"], isHold: true, videoUrl: "https://www.youtube.com/watch?v=pznJ31_I06g" }
+    sections:, isHold: true, videoUrl: "https://www.youtube.com/watch?v=AdSQaIh94ME" },
+          { name: "Gentle Stretching / Mobility", instructions: "Perform a full-body stretch, focusing on tight areas from your workouts. Hold each stretch for 20-30 seconds.", targetMuscles:, isHold: true, videoUrl: "https://www.youtube.com/watch?v=yIcjAEs18TQ" },
+          { name: "Foam Rolling", instructions: "Target sore muscles like quads, hamstrings, glutes, and back to aid recovery.", targetMuscles:, isHold: true, videoUrl: "https://www.youtube.com/watch?v=pznJ31_I06g" }
         ]
       }
     ]
   }
 ];
+```
